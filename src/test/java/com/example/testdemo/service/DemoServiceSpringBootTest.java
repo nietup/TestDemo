@@ -9,6 +9,8 @@ import java.math.BigDecimal;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // Here the whole Spring context will be started
+// This makes the tests run slower,
+// but nicely enough, application context is cached between tests
 @SpringBootTest
 public class DemoServiceSpringBootTest {
 
